@@ -13,7 +13,12 @@ class Navbar extends Component {
           </Link>
         </div>
         <nav className={sidebar ? "nav-menu active" : "nav-menu"}>
-          <ul className="nav-menu-items"></ul>
+          <ul className="nav-menu-items">
+            <li classname="navbar-toggle"></li>
+            <Link to="#" className="menu-bars">
+              <FaIcons.AiOutlineClose />
+            </Link>
+          </ul>
         </nav>
       </div>
     );
