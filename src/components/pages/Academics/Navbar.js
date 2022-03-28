@@ -12,6 +12,9 @@ class Navbar extends Component {
             <FaIcons.FaBars />
           </Link>
         </div>
+        <nav className={sidebar ? "nav-menu active" : "nav-menu"}>
+          <ul className="nav-menu-items"></ul>
+        </nav>
       </div>
     );
   }
