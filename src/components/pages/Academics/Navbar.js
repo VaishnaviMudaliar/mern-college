@@ -5,11 +5,13 @@ import * as AiIcons from "react-icons/ai";
 
 export default function Navbar() {
   const [sidebar, setSidebar] = useState(false);
+
+  const showSidebar = () => setSidebar(!sidebar);
   return (
     <div>
       <div className="navbar">
         <Link to="#" className="menu-bars">
-          <FaIcons.FaBars />
+          <FaIcons.FaBars onClick={showSidebar} />
         </Link>
       </div>
       <nav className={sidebar ? "nav-menu active" : "nav-menu"}>
