@@ -1,19 +1,17 @@
-import React, { Component } from "react";
+import React from "react";
 import Navbar from "./Navbar";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-class Academics extends Component {
-  render() {
-    return (
-      <>
-        <Router>
-          <Navbar />
-          <Switch>
-            <Route path="/" />
-          </Switch>
-        </Router>
-      </>
-    );
-  }
-}
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
 
-export default Academics;
+export default function Academics() {
+  return (
+    <div>
+      <Router>
+        <Navbar />
+        <Routes>
+          <Route path="/" component={Home} />
+        </Routes>
+      </Router>
+    </div>
+  );
+}
