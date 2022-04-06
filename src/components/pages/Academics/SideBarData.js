@@ -2,6 +2,7 @@ import React from "react";
 import * as FaIcons from "react-icons/fa";
 import * as AiIcons from "react-icons/ai";
 import * as IoIcons from "react-icons/io";
+import * as RiIcons from "react-icons/ri";
 
 export const SideBarData = [
   {
@@ -23,15 +24,15 @@ export const SideBarData = [
     cName: "nav-text"
   },
   {
-    title: "Academic Calendars",
-    path: "/",
-    icon: <AiIcons.AiFillCalendar />,
+    title: "Results",
+    path: "/results",
+    icon: <RiIcons.RiFilePaper2Fill />,
     cName: "nav-text"
   },
   {
-    title: "Academic Calendars",
-    path: "/",
-    icon: <AiIcons.AiFillCalendar />,
+    title: "Accredition",
+    path: "/accredition",
+    icon: <FaIcons.FaPencilAlt />,
     cName: "nav-text"
   }
 ];
