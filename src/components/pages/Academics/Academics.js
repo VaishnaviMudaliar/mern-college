@@ -6,6 +6,7 @@ import Home from "./pages/Home";
 import Results from "./pages/Results";
 import AcademicCalendars from "./pages/Academic_calendars";
 import Accredition from "./pages/Accredition";
+import Syllabus from "./pages/Syllabus";
 
 export default function Academics() {
   return (
@@ -14,6 +15,7 @@ export default function Academics() {
         <Navbar />
         <Routes>
           <Route path="/" exact element={<Home />} />
+          <Route path="/syllabus" element={<Syllabus />} />
           <Route path="/results" element={<Results />} />
           <Route path="/academic_calendars" element={<AcademicCalendars />} />
           <Route path="/accredition" element={<Accredition />} />

@@ -5,8 +5,18 @@
   align-items: center;
 }
 .heading {
-  margin-top: 40px;
+  margin: 10px;
   font-size: 20px;
   padding: 10px;
   align-items: center;
+}
+
+.topper {
+  margin: 20px;
+  padding: 10px;
+}
+.table {
+  margin-left: 30px;
+  border-collapse: collapse;
+  border: none;
 }
