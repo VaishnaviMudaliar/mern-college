@@ -1,9 +1,11 @@
-import React from "react";
+import React from 'react';
 import './Login.css';
-import { Button, Form, FormGroup, Input, Label } from "reactstrap";
+import Signup from './Signup';
+// import { Link } from 'react-router-dom';
+import { Button, Form, FormGroup, Input, Label } from 'reactstrap';
 export default function Login() {
   return (
-    <div className = "Login">
+    <div className="Login">
       <h2>Sign In</h2>
       <Form className="form">
         <FormGroup>
@@ -25,8 +27,6 @@ export default function Login() {
           />
         </FormGroup>
         <Button>Submit</Button>
-
-      <h3></h3>
       </Form>
     </div>
   );

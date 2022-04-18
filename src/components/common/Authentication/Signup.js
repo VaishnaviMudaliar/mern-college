@@ -1,7 +1,7 @@
-import React from "react";
-import "./Login.css";
-import 
-import { Button, Form, FormGroup, Input, Label } from "reactstrap";
+import React from 'react';
+import './Login.css';
+
+import { Button, Form, FormGroup, Input, Label } from 'reactstrap';
 import Signup from './Signup';
 export default function Login() {
   return (
@@ -27,7 +27,7 @@ export default function Login() {
           />
         </FormGroup>
         <Button>Submit</Button>
-        <h5>dont have an account? <Link to = "/Signup" component = {Signup}/></h5>
+       
       </Form>
     </div>
   );
