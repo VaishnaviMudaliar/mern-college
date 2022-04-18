@@ -1,10 +1,9 @@
 import "./home.css";
 
-import React, { Component } from "react";
+import React from "react";
 
-import Header from "../common/Header";
 import image1 from "../assets/images/pdea1.png";
-import image2 from "../assets/images/pdea2.png";
+
 import image3 from "../assets/images/pdea3.png";
 export default function Home() {
   const myStyle = {
@@ -26,19 +25,19 @@ export default function Home() {
             <i className="fas fa-times" onclick="hideMenu()"></i>
             <ul>
               <li>
-                <a href="#">HOME</a>
+                <a href="/">HOME</a>
               </li>
               <li>
-                <a href="#">ABOUT</a>
+                <a href="/">ABOUT</a>
               </li>
               <li>
-                <a href="#">COURSE</a>
+                <a href="/">COURSE</a>
               </li>
               <li>
-                <a href="#">BLOG</a>
+                <a href="/">BLOG</a>
               </li>
               <li>
-                <a href="#">CONTACT</a>
+                <a href="/">CONTACT</a>
               </li>
             </ul>
           </div>
@@ -49,7 +48,7 @@ export default function Home() {
           <h1>College of Engineering</h1>
           <h2>Manjari(BK) , Hadapsar Pune</h2>
           <br />
-          <a href="#" class="hero-btn">
+          <a href="/" className="hero-btn">
             Visit Us To Know More
           </a>
         </div>
