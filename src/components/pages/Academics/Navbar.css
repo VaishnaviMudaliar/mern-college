@@ -65,7 +65,7 @@
   height: 80px;
   display: flex;
   justify-content: start;
-  align-items: center;
+  align-items: flex-start;
 }
 
 span {

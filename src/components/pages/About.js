@@ -1,8 +1,7 @@
-import "./about.css";
-import React from "react";
-import Card, { Row, Col } from "react-bootstrap";
-import chairman from "../assets/images/chairman.jpg";
-import building from "../assets/images/pdea2.png";
+import './about.css';
+import React from 'react';
+import chairman from '../assets/images/chairman.jpg';
+import building from '../assets/images/pdea2.png';
 export default function About() {
   return (
     <div>
@@ -88,11 +87,11 @@ export default function About() {
             not compromise on teaching standards or discipline. These three
             things are the springboards on which we operate.
           </p>
-          <p style={{ textTransform: "uppercase", color: "red" }}>
+          <p style={{ textTransform: 'uppercase', color: 'red' }}>
             SUCCESS IS A JOURNEY NOT A DESTINATION
           </p>
           <p>
-            {" "}
+            {' '}
             Ensure That You Are In The Right Direction, Instead Of Just At The
             Right Speed.
           </p>

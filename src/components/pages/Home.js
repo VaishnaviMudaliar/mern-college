@@ -1,16 +1,16 @@
-import "./home.css";
+import './home.css';
 
-import React from "react";
+import React from 'react';
 
-import image1 from "../assets/images/pdea1.png";
+import image1 from '../assets/images/pdea1.png';
 
-import image3 from "../assets/images/pdea3.png";
+import image3 from '../assets/images/pdea3.png';
 export default function Home() {
   const myStyle = {
     backgroundImage: `url(${image1})`,
-    backgroundRepeat: "no-repeat",
-    backgroundPosition: "center",
-    backgroundSize: "cover"
+    backgroundRepeat: 'no-repeat',
+    backgroundPosition: 'center',
+    backgroundSize: 'cover',
   };
 
   return (
